@@ -508,7 +508,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 /* section-advantages */
 @media screen and (max-width: 1157px){
 .container-advantages-list-icon,
-    .services section {
+    .services {
         display: none;
 }
 }
@@ -603,7 +603,19 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 /* section services */
-/* .services{
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--secondary-text-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: 72px;
+}
+
+.services{
     padding-top: 0;
 }
 .services-list{
@@ -612,7 +624,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 .services-list-item{
     width: calc((100% - 48px) / 3);
-} */
+} 
 
 /* section-team */
 /* .team{
