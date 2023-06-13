@@ -361,13 +361,13 @@ img {
 }
 
 
-
 .contacts {
     font-style: normal;
     font-size: 12px;
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
 }
+
 @media screen and (min-width: 1158px) {
     .contacts {
         font-size: var(--font-size-text);
@@ -377,8 +377,8 @@ img {
     transition: color var(--transition-duration-and-func);
 }
 
-
 /* main */
+
 /* HERO */
 .hero {
     background-color: var(--secondary-text-color);
@@ -912,17 +912,6 @@ flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
 }
 }
-/* 
-
-
-
-.subscription-form {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
- */
-
 
 /* MODAL */
 .backdrop {
